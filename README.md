@@ -24,11 +24,19 @@ You want ChatGPT with voice message support on your mobile phone? Then check thi
 5. Install Python v3 on your system, if not already installed.
 6. To run it 24/7 you can host the script. For example on https://www.pythonanywhere.com/ for free
 
+
 ## ⚙️ Configuration
 
 1. Clone this repository and open the Python script in Visual Studio Code.
-2. Replace the placeholder values for the OpenAI API key and the Telegram API key with your respective keys.
-3. Save the script and run it to start your chatbot.
+2. `
+pip install -r
+python-telegram-bot==13.0
+openai
+moviepy
+`
+
+3. Replace the placeholder values for the OpenAI API key and the Telegram API key with your respective keys.
+4. Save the script and run it to start your chatbot.
 
 ## 📄 Script Overview
 
